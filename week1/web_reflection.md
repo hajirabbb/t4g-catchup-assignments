@@ -1,0 +1,13 @@
+WHAT HAPPENS WHEN YOU TYPE A URL INTO YOUR WEB BROWSER
+When a user types a url eg: www.pinterest.com in their address bar of a web browser like chrome, microsoft edge or safari the following happens;
+1. The domain Name System( DNS) translates the web address into a format the computer understands, ie IP address.
+2. The request travels to the load balancer which handles traffic and directs requests towards multiple web servers.
+The web server is in charge of rendering pages that is the frontend part of the website which includes the HTML, CSS and Javascript.if the  website is static, the process ends here, however if its dynamic, the application server also display backend and database.
+
+DIFFERENCE BETWEEN APPLICATION SERVER AND WEB SERVER.
+An web server is responsible for displaying static web pages. If you type a url like www.pinterest.com in your address bar, the application server renders or displays the static page showing the page layout and resources only. Examples of application server include; Apache HTTP Server,Nginx,Microsoft IIS.
+An application server on the other hand serves as the brain of the website, after the web server, displays static content, the application server displays the dynamic content, allowing you to view business logic, databases and authentication. With pinterest.com, the application server would check your account, fetch your saved board, pull recommended pins and use algorithims to personalize your feed. Examples of application server is Apache Tomcat, Node.js and Django.
+WHY THE CLIENTS DOES NOT TALK DIRECTLY TO THE DATABASE
+1.For secutity reasons: if the web browser could talk directly to database, it could modify database, delete pins and even read other user's private board.
+2 Business logic must be controlled: A business stragic and reasoning needs to be controlled a reason why clients cannot talk directly to the database. if the client talked directly to the database in the case of pinterest.com it would have to verify passwords, calculate recommendations, enforce privacy rules itself  which is not ideal as this is the function of the application sever
+3.Data Validation and Integrity. Client cannot talk directly to database because data need to be valid and intergirity must be maintained. in the case of pinterest.com, the client can upload corrupt pins to pinterest if it could communicate directly with the database, as this is not allowed, the application server verifies pins to ensure that data uploaded is valid and integrity is mainitained.

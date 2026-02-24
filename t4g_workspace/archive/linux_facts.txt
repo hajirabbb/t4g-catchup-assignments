@@ -1,0 +1,3 @@
+Linux was created in 1991 by Linus Torvalds, a 21-year-old computer science student in Finland.
+Linux Is Just the “Kernel”.
+Linux Powers Most of the Internet
