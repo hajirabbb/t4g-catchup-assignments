@@ -1,4 +1,4 @@
-#T4G Catch-Up Assignments
+**T4G Catch-Up Assignments**
 
 This repository contains my Tech4Girls (T4G) catch-up assignments.  
 Each folder represents a specific week of learning, practice tasks, and hands-on projects.
