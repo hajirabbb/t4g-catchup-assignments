@@ -1,4 +1,4 @@
-T4G Catch-Up Assignments
+#T4G Catch-Up Assignments
 
 This repository contains my Tech4Girls (T4G) catch-up assignments.  
 Each folder represents a specific week of learning, practice tasks, and hands-on projects.
@@ -29,13 +29,13 @@ Introduction to Linux commands, terminal navigation, and file system management.
 - Using `echo` with redirection (`>`, `>>`)
 - Basic Vim commands
 
-What I Learned:
+**What I Learned:**
 - How to confidently navigate the Linux file system
 - The difference between absolute and relative paths
 - How to create, edit, and manage files using the terminal
 - Improved command-line efficiency and confidence
 
----
+
 
 Week 2 – Git & GitHub
 
@@ -57,7 +57,7 @@ Topics Covered:
 - How to push projects to GitHub
 - The importance of commits in documenting progress
 
-Catch-Up Projects
+**Catch-Up Projects**
 
 As part of the catch-up process, I applied my learning through practical tasks and real-world simulations.
 
@@ -81,7 +81,7 @@ Through these hands-on exercises, I developed:
 - Stronger debugging and problem-solving skills
 - Practical experience managing real project repositories
 
-Tools Used
+**Tools Used**
 
 - Linux (WSL)
 - VS Code
