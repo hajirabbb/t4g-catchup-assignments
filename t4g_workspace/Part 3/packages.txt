@@ -1,0 +1,2 @@
+Tree help developers to visualize files and folders in a directory. It allows developers to navigate to folders and files easily
+Htop is useful because it provides real-time monitoring of system resources. Such reasources include CPU and memory usage, which helps backend developers optimize performance and troubleshoot running processes.
