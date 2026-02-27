@@ -1,0 +1,5 @@
+a) -rwxr-xr-- : user can read, write onto and execute this file. Group can only execute and read and others read only
+b) drwxrwx--- : This is a directory a user can read, write and execute this directory, a group can alo read write and execute, others have no permissions.
+c)rw-r--r-- : User can read and write onto file, then group can read, others can also read.
+d)chmod 750 file : This add, read, write and execute permissions to the user, and add read and execute permissions to the group and no permission to others.
+e) chmod 600 file : This add read and write permission to user and no permissions to group and others.

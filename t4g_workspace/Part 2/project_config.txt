@@ -1,0 +1,1 @@
+rw permission means user has been given permission to read and write onto a file, sh
