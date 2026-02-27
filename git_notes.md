@@ -1,0 +1,3 @@
+A GIT CONFLICT 
+A git conflict occurs in github when a there are two branches aside the main branch with a the same files but one file content is different fromt that of the other branch and there is a pull into the main, because these two files are conflicting each other, it cannot be added to the main and as such the conflict must be resolved.
+To resolve a git conflict, you can either use the web or the editor in vs code, you decide on which of them to maintain, then you maintain it and can push successfully into the main branch.
